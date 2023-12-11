@@ -1,0 +1,18 @@
+#grid-container {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 448px;
+    height: 509px;
+    border: 1px solid red;
+}
+
+.square-div {
+    border: 1px solid gray;
+    min-width: 26px;
+    min-height: 26px;
+    display: inline-block;
+}
