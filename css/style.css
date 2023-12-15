@@ -15,6 +15,7 @@ body {
 }
 
 .main-title {
+    color: rgb(41, 34, 34);
     font-size: 50px;
     position: absolute;
     left: 800px;
@@ -37,7 +38,7 @@ body {
 .square-div {
     min-width: calc(100% / 16);
     min-height: calc(100% / 16);
-    border: 1px solid black;
+    border: 1px solid transparent;
     display: inline-block;
     vertical-align: top;
     transition: all 0s ease 100000000000000000s; /*delay 1s*/
@@ -49,4 +50,30 @@ body {
     transition-delay: 0s; 
     visibility: visible;
   
+}
+
+#btn-square {
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    border-radius: 50px;
+    width: 320px;
+    height: 80px;
+    font-size: 14px;
+    background-color: rgb(54, 53, 53);
+    border: 2px solid rgb(204, 195, 195);
+    color: rgb(204, 195, 195);
+}
+
+#btn-clear {
+    position: absolute;
+    top: 600px;
+    left: 320px;
+    border-radius: 50px;
+    width: 320px;
+    height: 80px;
+    font-size: 14px;
+    background-color: rgb(54, 53, 53);
+    border: 2px solid rgb(204, 195, 195);
+    color: rgb(204, 195, 195);
 }
