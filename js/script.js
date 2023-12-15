@@ -9,7 +9,7 @@ for (let i = 0; i < 256; i++) {
 const userSquarePerSideChoice = document.querySelector("#btn-square");
 
 userSquarePerSideChoice.addEventListener("click", function() {
-    const userPrompt = prompt("Enter the square per side grid you want(between 1 and 100)");
+     userPrompt = prompt("Enter the square per side grid you want(between 1 and 100)");
     if (userPrompt < 1 || userPrompt > 100) {
          alert(`Write a number between 1 and 100 You wrote ${userPrompt}`);
          return
@@ -23,6 +23,7 @@ userSquarePerSideChoice.addEventListener("click", function() {
         gridContainer.appendChild(squareDiv);
     }
 });
+
 
 
 
